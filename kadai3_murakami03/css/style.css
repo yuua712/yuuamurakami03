@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+#all {
+    display: inline-block;
+    max-width: 960px;
+    padding-bottom: 30px;
+    background-color: #eeeeee;
+}
+
+#all h1 {
+    text-align: center;
+    color: seagreen;
+    padding: 30px;
+}
+
+.box {
+    display: flex;
+    justify-content:space-between;
+}
+
+.box1 {
+    background-color: white;
+}
+
+.picture img {
+    padding: 10px;
+    width: 300px;
+}
+
+.text h2 {
+    color: seagreen;
+    border-left: 10px solid seagreen;
+    margin-left: 10px;
+}
+
+.text p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+@media screen and (max-width:400px) {
+    .box {
+        flex-direction: column;
+    }
+}
